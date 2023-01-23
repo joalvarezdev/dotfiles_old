@@ -1,0 +1,22 @@
+alias soz="source ~/.zshrc" 
+
+alias d3=~/.D3/personal/java/d3-SRL
+alias my="~/.D3/personal"
+alias conf=~/.D3/personal/config/dot_files
+
+alias jv="~/.D3/personal/java"
+alias prys="~/.D3/personal/proyects"
+alias int="~/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/bin/idea.sh"
+
+# VIM DOTFILES
+alias vid="~/.D3/config-tools/vim"
+
+### GIT ###
+alias gbh=git branch | head -20
+alias gslh=git stash list | head -20
+alias gsp=git stash pop
+
+### SHORCUTS ### 
+alias op="xdg-open ."
+
+alias rb='sudo reboot now'

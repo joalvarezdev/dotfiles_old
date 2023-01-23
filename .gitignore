@@ -1,0 +1,8 @@
+*.bck
+ 
+
+### VIM ###
+vim/.vim/autoload/*
+
+### INFOSIS ###
+ZSH/infosis.txt

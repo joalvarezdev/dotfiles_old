@@ -1,0 +1,5 @@
+alias web=~/.D3/infosis/proyects/zeus-web
+alias home=~/.D3/infosis/homes/zeusWeb
+alias msg=~/.D3/infosis/homes/zeusWeb/messages
+alias ecohom=~/.D3/infosis/homes/ApiEcommerceHome
+alias infs=~/.D3/infosis/proyects
