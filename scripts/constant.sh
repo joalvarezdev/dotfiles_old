@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #### Constantes utilizadas para realizar configuracion automatica.
+#### Otro comentario de prueba
 
 # PATHS Directories
 base=~
