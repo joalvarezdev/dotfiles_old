@@ -52,6 +52,13 @@ then
     mkdir $base$principal$proy$library
 fi
 
+# works
+
+if [[ ! -d $base$principal$proy$work ]]
+then
+    mkdir $base$principal$proy$library
+fi
+
 # DTO 
 
 if [[ ! -d $base$principal$proy$library$dot_library ]]

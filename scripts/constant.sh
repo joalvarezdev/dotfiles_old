@@ -8,6 +8,7 @@ base=~
 principal=/joalvarez-personal
 config=/configuration
 proy=/projects
+work=/work
 frame=/framework
 libraries=/libraries
 dot_library=/DTO
