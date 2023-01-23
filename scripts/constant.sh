@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#### Constantes utilizadas para realizar configuracion automatica.
+
 # PATHS Directories
 base=~
 principal=/joalvarez-personal
