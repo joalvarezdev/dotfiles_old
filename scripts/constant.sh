@@ -9,6 +9,7 @@ principal=/joalvarez-personal
 config=/configuration
 proy=/projects
 work=/work
+properties=/config-properties
 frame=/framework
 libraries=/libraries
 dot_library=/DTO

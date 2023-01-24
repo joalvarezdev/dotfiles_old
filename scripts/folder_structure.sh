@@ -59,6 +59,13 @@ then
     mkdir $base$principal$proy$library
 fi
 
+# config-properties
+
+if [[ ! -d $base$principal$proy$properties ]]
+then
+    mkdir $base$principal$proy$properties
+fi
+
 # DTO 
 
 if [[ ! -d $base$principal$proy$library$dot_library ]]

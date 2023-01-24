@@ -1,11 +1,8 @@
 alias soz="source ~/.zshrc" 
 
-alias d3=~/.D3/personal/java/d3-SRL
-alias my="~/.D3/personal"
-alias conf=~/.D3/personal/config/dot_files
+alias d3=~/joalvarez-personal/projects
+alias conf=~/joalvarez-personal/configuration
 
-alias jv="~/.D3/personal/java"
-alias prys="~/.D3/personal/proyects"
 alias int="~/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/bin/idea.sh"
 
 # VIM DOTFILES
