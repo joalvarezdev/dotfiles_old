@@ -11,8 +11,8 @@ nmap <leader>q :q<CR>
 nnoremap <leader>so :source ~/.ideavimrc<CR>
 
 """" NAVEGAR ENTRE LOS ARCHIVO ABIERTOS
-nmap <leader><tab> :action PreviousTab<CR>
-nmap <tab> :action NextTab<CR>
+nmap <S-J> : action PreviousTab<CR>
+nmap <S-K> :action NextTab<CR>
 
 """" REFACTORIZACION
     """ RENOMBRAR CLASE, VARIABLE, METODO
