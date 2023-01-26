@@ -11,7 +11,7 @@ nmap <leader>q :q<CR>
 nnoremap <leader>so :source ~/.ideavimrc<CR>
 
 """" NAVEGAR ENTRE LOS ARCHIVO ABIERTOS
-nmap <S-J> : action PreviousTab<CR>
+nmap <S-J> :action PreviousTab<CR>
 nmap <S-K> :action NextTab<CR>
 
 """" REFACTORIZACION
