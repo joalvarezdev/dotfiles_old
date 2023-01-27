@@ -24,11 +24,11 @@
             "commands" : ["workbench.action.closeActiveEditor"]
         },
         {
-            "before" : ["<tab>"],
+            "before" : ["<S-K>"],
             "commands" : ["workbench.action.nextEditor"]
         },
         {
-            "before" : ["<leader>", "<tab>"],
+            "before" : ["<S-J>"],
             "commands" : ["workbench.action.previousEditor"]
         },
         {
