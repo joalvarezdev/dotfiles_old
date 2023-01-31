@@ -14,6 +14,10 @@ nnoremap <leader>so :source ~/.ideavimrc<CR>
 nmap <S-J> :action PreviousTab<CR>
 nmap <S-K> :action NextTab<CR>
 
+"""" NAVEGAR ENTRE PROYECTOS ABIERTOS
+nmap <S-A-K> :action NextProjectWindow<CR>
+nmap <S-A-J> :action PreviousProjectWindow<CR>
+
 """" REFACTORIZACION
     """ RENOMBRAR CLASE, VARIABLE, METODO
 noremap <leader>re :action RenameElement<CR>
