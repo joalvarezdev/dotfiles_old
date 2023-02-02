@@ -1,4 +1,4 @@
-call plug#begin('~/.D3/config-tools/vim/.vim/autoload')
+call plug#begin('~/personal/config/configuration/vim/.vim/autoload')
     Plug 'morhetz/gruvbox'
     Plug 'scrooloose/nerdtree'
     Plug 'benmills/vimux'

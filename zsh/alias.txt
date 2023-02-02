@@ -1,12 +1,9 @@
 alias soz="source ~/.zshrc" 
 
-alias d3=~/joalvarez-personal/projects
-alias conf=~/joalvarez-personal/configuration
+alias d3=~/personal/projects
+alias conf=~/personal/config/configuration
 
-alias int="~/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.7571.182/bin/idea.sh"
-
-# VIM DOTFILES
-alias vid="~/.D3/config-tools/vim"
+# VIM DOTFILES alias vid="~/.D3/config-tools/vim"
 
 ### GIT ###
 alias gbh=git branch | head -20
@@ -17,3 +14,5 @@ alias gsp=git stash pop
 alias op="xdg-open ."
 
 alias rb='sudo reboot now'
+
+source /home/joalvarez/personal/config/configuration/zsh/tmx.txt
