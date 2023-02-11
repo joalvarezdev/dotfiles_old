@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "GitHub Light Default",
+    "workbench.colorTheme": "Dark Horizon",
     "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
     "editor.wordWrap" : "on",
@@ -61,5 +61,5 @@
     "window.zoomLevel": -1,
     "diffEditor.ignoreTrimWhitespace": false,
     //"emmet.triggerExpansionOnTab": true,
-    //"javascript.updateImportsOnFileMove.enabled": "always",
+    //"javascript.updateImportsOnFileMove.enabled": "always"
 }
