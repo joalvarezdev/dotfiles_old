@@ -23,13 +23,23 @@ nnoremap <C-k> :m .-2<CR>==
 vnoremap <C-k> :m  '<-2<CR>gv=gv
 vnoremap <C-j> :m  '>+1<CR>gv=gv
 
-"inoremap K <Esc>:m .-2<CR>==gi
-"inoremap J <Esc>:m .+1<CR>==gi
-
 " Plug
 map <Leader>nt :NERDTreeFind<CR>
 map <Leader>p :Files<CR>
 
+" tmux navigator
+nnoremap <silent> <Leader><C-h> :TmuxNavigateLeft<CR>
+nnoremap <silent> <Leader><C-l> :TmuxNavigateRight<CR>
+nnoremap <silent> <Leader><C-j> :TmuxNavigateDown<CR>
+nnoremap <silent> <Leader><C-k> :TmuxNavigateUp<CR>
+
+" tab navigator
+map <S-J> :tabprevious<CR>
+map <S-K> :tabnext<CR>
+
+"map <S-J> :bn <CR>
+"map <S-K> :bp <CR>
+"map <S-E> :bw <CR>
 
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
 " utf-8 byte sequence
@@ -51,11 +61,17 @@ set signcolumn=yes
 " no select by `"suggest.noselect": true` in your configuration file
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config
-inoremap <silent><expr> <TAB>
-      \ coc#pum#visible() ? coc#pum#next(1) :
-      \ CheckBackspace() ? "\<Tab>" :
-      \ coc#refresh()
-inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
+"inoremap <silent><expr> <TAB>
+"      \ coc#pum#visible() ? coc#pum#next(1) :
+"      \ CheckBackspace() ? "\<Tab>" :
+"      \ coc#refresh()
+
+
+inoremap <expr><S-TAB> "\<C-h>"
+inoremap <silent><expr> <TAB> CheckBackspace() ? "\<Tab>" : coc#refresh()
+
+inoremap <silent><expr> <S-J> coc#pum#visible() ? coc#pum#next(1) : "J"
+inoremap <expr><S-K> coc#pum#visible() ? coc#pum#prev(1) : "K"
 
 " Make <CR> to accept selected completion item or notify coc.nvim to format
 " <C-g>u breaks current undo, please make your own choice
@@ -86,7 +102,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 " Use K to show documentation in preview window
-nnoremap <silent> K :call ShowDocumentation()<CR>
+"nnoremap <silent> K :call ShowDocumentation()<CR>
 
 function! ShowDocumentation()
   if CocAction('hasProvider', 'hover')
