@@ -60,6 +60,9 @@ noremap <leader>cc :action Coverage<CR>
 noremap <leader>cn :action RunCoverage<CR>
 noremap <leader>hs :action Hotswap<CR>
 
+noremap <leader>sr :action RunConfiguration<CR>
+noremap <leader>ec :action editRunConfigurations<CR>
+
 """" ACCIONES DE DEBUG
 nmap <C-j> :action StepOver<CR>
 nmap <C-k> :action Resume<CR>

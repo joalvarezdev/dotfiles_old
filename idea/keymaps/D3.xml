@@ -1,18 +1,21 @@
 <keymap version="1" name="D3" parent="Default for GNOME">
+  <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
+  <action id="ActivateFindToolWindow" />
   <action id="ActivateMavenToolWindow">
-    <keyboard-shortcut first-keystroke="alt 5" />
+    <keyboard-shortcut first-keystroke="alt 4" />
   </action>
   <action id="ActivatePlantUMLToolWindow">
     <keyboard-shortcut first-keystroke="alt quote" />
   </action>
+  <action id="ActivateRunToolWindow" />
   <action id="ActivateSonarLintToolWindow">
-    <keyboard-shortcut first-keystroke="alt minus" />
+    <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ActivateTODOToolWindow">
-    <keyboard-shortcut first-keystroke="alt t" />
+    <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="shift alt t" />
@@ -33,10 +36,13 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="alt j" />
   </action>
+  <action id="EditorDuplicate" />
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
     <keyboard-shortcut first-keystroke="alt h" />
@@ -51,6 +57,7 @@
   </action>
   <action id="EmmetPreviousEditPoint" />
   <action id="ExportToTextFile" />
+  <action id="FileChooser.GotoDesktop" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
@@ -67,6 +74,7 @@
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="GotoTest" />
+  <action id="GuiDesigner.Duplicate" />
   <action id="Hg.Commit.And.Push.Executor" />
   <action id="Hotswap">
     <keyboard-shortcut first-keystroke="shift alt h" />
@@ -92,10 +100,12 @@
   <action id="RestartIde">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="RunDashboard.CopyConfiguration" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="SelectNextOccurrence" />
+  <action id="SendEOF" />
   <action id="Terminal.ClearBuffer" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="alt e" />
@@ -109,11 +119,16 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="UsageGrouping.DirectoryStructure" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ToggleAmendCommitMode" />
   <action id="Vcs.UpdateProject" />
+  <action id="XDebugger.CopyWatch" />
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
   <action id="performancePlugin.ShowMemoryDialogAction">
     <keyboard-shortcut first-keystroke="ctrl alt k" />
