@@ -2,6 +2,7 @@ alias soz="source ~/.zshrc"
 
 alias d3=~/personal/projects
 alias conf=~/personal/config/configuration
+alias hours="code . | /home/joalvarez/personal/registrohoras"
 
 # VIM DOTFILES alias vid="~/.D3/config-tools/vim"
 

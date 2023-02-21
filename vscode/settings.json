@@ -5,7 +5,7 @@
     "editor.wordWrap" : "on",
     "editor.fontWeight": "bold",
     "editor.fontFamily": "UbuntuMono Nerd Font Mono",
-    "editor.fontSize": 16,
+    "editor.fontSize": 17,
     "editor.fontLigatures": true,
     "vim.leader": "<space>",
     "vim.insertModeKeyBindings": [
