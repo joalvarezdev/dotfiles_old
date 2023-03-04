@@ -4,6 +4,15 @@ alias d3=~/personal/projects
 alias conf=~/personal/config/configuration
 alias hours="code . | /home/joalvarez/personal/registrohoras"
 
+# Eliminar todos los usuarios SSH
+
+alias sshd='ssh-add -D'
+alias sshl='ssh-add -l'
+
+alias jowork='ssh-add /home/joalvarez/infosis/ssh/joalvarez'
+alias jopers='ssh-add /home/joalvarez/personal/ssh/joalvarez'
+alias josoft='ssh-add /home/joalvarez/personal/projects/softnik/ssh/joalvarez'
+
 # VIM DOTFILES alias vid="~/.D3/config-tools/vim"
 
 ### GIT ###

@@ -1,0 +1,13 @@
+""/home/user/snap/dbeaver-ce/220 (version) dentro de este archivo colocar .vrapperrc con la configuración de vim.
+
+let mapleader="\"
+
+imap jk <Esc>
+
+nmap <leader>w :w<CR>
+nmap <leader>q :q<CR>
+
+map <S-J> :tabprevious<CR>
+map <S-K> :tabnext<CR>
+
+nmap <leader>so :source ~/snap/dbeaver-ce/220/.vrapperrc<CR>

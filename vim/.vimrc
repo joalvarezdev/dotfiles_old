@@ -8,9 +8,14 @@
 let mapleader=" "
 
 set number
-set nocompatible
 syntax on
 set encoding=utf-8
+
+set noswapfile
+set nobackup
+
+set backspace=indent,eol,start
+set wrap
 
 " Tabs
 set shiftwidth=4

@@ -38,6 +38,7 @@ noremap <A-S-T> :action GenerateGetterAndSetter<CR>
 noremap <A-S-G> :action GenerateGetter<CR>
     """ Sobreescribir metodos
 noremap <A-S-O> :action OverrideMethods<CR>
+
 """ BOOKMARKS
 noremap <leader>0 :action ToggleBookmark0<CR>
 noremap <leader>1 :action ToggleBookmark1<CR>
@@ -115,3 +116,7 @@ noremap <A-S-\> :action SplitVertically<CR>
     """ MOVERSE ENTRE DIFERENTES SEPARACIONES
 noremap <A-S-H> :action NextSplitter<CR>
 noremap <A-S-L> :action PrevSplitter<CR>
+
+"""" TEST UNITARIOS
+    """ 
+noremap <A-R> :action Coverage<CR>

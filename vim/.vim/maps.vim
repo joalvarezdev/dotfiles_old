@@ -30,8 +30,8 @@ map <Leader>p :Files<CR>
 " tmux navigator
 nnoremap <silent> <Leader><C-h> :TmuxNavigateLeft<CR>
 nnoremap <silent> <Leader><C-l> :TmuxNavigateRight<CR>
-nnoremap <silent> <Leader><C-j> :TmuxNavigateDown<CR>
-nnoremap <silent> <Leader><C-k> :TmuxNavigateUp<CR>
+"nnoremap <silent> <Leader><C-j> :TmuxNavigateDown<CR>
+"nnoremap <silent> <Leader><C-k> :TmuxNavigateUp<CR>
 
 " tab navigator
 map <S-J> :tabprevious<CR>

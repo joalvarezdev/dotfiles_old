@@ -60,6 +60,9 @@
     "explorer.confirmDelete": false,
     "window.zoomLevel": -1,
     "diffEditor.ignoreTrimWhitespace": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     //"emmet.triggerExpansionOnTab": true,
     //"javascript.updateImportsOnFileMove.enabled": "always"
 }

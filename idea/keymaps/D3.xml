@@ -1,5 +1,8 @@
 <keymap version="1" name="D3" parent="Default for GNOME">
   <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateCoverageToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
   </action>
@@ -8,7 +11,7 @@
     <keyboard-shortcut first-keystroke="alt 4" />
   </action>
   <action id="ActivatePlantUMLToolWindow">
-    <keyboard-shortcut first-keystroke="alt quote" />
+    <keyboard-shortcut first-keystroke="alt 5" />
   </action>
   <action id="ActivateRunToolWindow" />
   <action id="ActivateSonarLintToolWindow">
@@ -61,6 +64,12 @@
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="GenerateTestMethod">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
   <action id="Git.Commit.And.Push.Executor" />
   <action id="Git.Commit.Stage" />
   <action id="GotoDeclaration">
@@ -69,10 +78,8 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
-  <action id="GotoLine">
-    <keyboard-shortcut first-keystroke="ctrl g" />
-    <keyboard-shortcut first-keystroke="alt g" />
-  </action>
+  <action id="GotoLine" />
+  <action id="GotoRow" />
   <action id="GotoTest" />
   <action id="GuiDesigner.Duplicate" />
   <action id="Hg.Commit.And.Push.Executor" />
