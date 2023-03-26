@@ -1,7 +1,7 @@
 <keymap version="1" name="D3" parent="Default for GNOME">
   <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateCoverageToolWindow">
-    <keyboard-shortcut first-keystroke="alt 5" />
+    <keyboard-shortcut first-keystroke="ctrl alt 2" />
   </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
@@ -12,6 +12,10 @@
   </action>
   <action id="ActivatePlantUMLToolWindow">
     <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="ActivateProblemsViewToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
   </action>
   <action id="ActivateRunToolWindow" />
   <action id="ActivateSonarLintToolWindow">
@@ -40,6 +44,9 @@
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="ConsoleView.ShowAsJsonAction">
+    <keyboard-shortcut first-keystroke="shift s" />
+  </action>
   <action id="Diff.ShowDiff" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -66,6 +73,7 @@
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
   <action id="GenerateTestMethod">
     <keyboard-shortcut first-keystroke="alt g" />

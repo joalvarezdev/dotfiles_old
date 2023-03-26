@@ -1,0 +1,7 @@
+alias sshd='ssh-add -D'
+alias sshl='ssh-add -l'
+
+alias jowork='ssh-add /home/joalvarez/infosis/joalvarez'
+alias jopers='ssh-add /home/joalvarez/personal/ssh/joalvarez'
+alias jopers1='ssh-add /home/joalvarez/personal/ssh/joalvarezdev'
+alias josoft='ssh-add /home/joalvarez/personal/projects/java/softnik/ssh/joalvarez'

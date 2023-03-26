@@ -1,0 +1,28 @@
+configuration_path=~/personal/config/configuration/zsh
+
+alias soz="source ~/.zshrc" 
+
+# Siempre iniciar con TMUX
+tmux &> /dev/null
+
+source $configuration_path/.drive
+
+### SHORCUTS ### 
+
+# SSH SHORCUTS
+source $configuration_path/.ssh_shorcuts
+alias op="xdg-open ."
+
+alias rb='sudo reboot now'
+
+### GIT ###
+alias gbh='git branch | head -20'
+alias gslh='git stash list | head -20'
+alias gsp='git stash pop'
+
+alias d3=~/personal/projects
+alias conf=~/personal/config/configuration
+alias hours='code ~/personal/registros'
+
+# INFOSIS
+source $configuration_path/.infosis 

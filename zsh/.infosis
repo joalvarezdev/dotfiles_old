@@ -1,3 +1,5 @@
 alias infs=~/infosis/projects
 alias web=~/infosis/projects/zeus-web
 alias home=~/infosis/projects/homes
+
+alias sts='code ~/infosis/status'

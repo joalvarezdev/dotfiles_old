@@ -12,10 +12,6 @@
         "command" : "selectNextSuggestion"
     },
     {
-        "key" : "alt+k",
-        "command" : "selectPrevSuggestion"
-    },
-    {
         "key": "shift+alt+\\",
         "command": "workbench.action.splitEditor"
     },
@@ -32,8 +28,12 @@
         "command" : "editor.action.moveLinesUpAction"
     },
     {
-        "key" : "alt+1",
-        "command" : "workbench.action.focusSideBar"
+         "key" : "alt+1",
+         "command" : "workbench.action.toggleSidebarVisibility"
+    },
+    {
+         "key" : "alt+2",
+         "command" : "workbench.action.focusSideBar"
     },
     {
         "key": "alt+w",
@@ -72,5 +72,29 @@
     {
         "key": "ctrl+k ctrl+w",
         "command": "-workbench.action.closeAllEditors"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-extension.vim_ctrl+b",
+        "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "alt+k",
+        "command": "-keybindings.editor.recordSearchKeys",
+        "when": "inKeybindings && inKeybindingsSearch"
+    },
+    {
+        "key": "alt+k",
+        "command": "extension.kanban.openBoard"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "markdown.showPreviewToSide",
+        "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+k v",
+        "command": "-markdown.showPreviewToSide",
+        "when": "!notebookEditorFocused && editorLangId == 'markdown'"
     }
 ]

@@ -1,0 +1,10 @@
+drive_path=/home/joalvarez/personal/projects/python/drive/list.py
+
+function dlist()
+{
+    if [ ! $1 ]; then
+        python3 $drive_path --directory_name ''
+    else
+        python3 $drive_path --directory_name $1
+    fi
+}

@@ -63,6 +63,13 @@
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    //"emmet.triggerExpansionOnTab": true,
-    //"javascript.updateImportsOnFileMove.enabled": "always"
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "kanban": {
+        "openOnStartup": false
+    }   
 }
