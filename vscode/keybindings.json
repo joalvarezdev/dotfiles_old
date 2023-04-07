@@ -12,6 +12,10 @@
         "command" : "selectNextSuggestion"
     },
     {
+        "key" : "alt+k",
+        "command" : "selectPrevSuggestion"
+    },
+    {
         "key": "shift+alt+\\",
         "command": "workbench.action.splitEditor"
     },
@@ -82,10 +86,6 @@
         "key": "alt+k",
         "command": "-keybindings.editor.recordSearchKeys",
         "when": "inKeybindings && inKeybindingsSearch"
-    },
-    {
-        "key": "alt+k",
-        "command": "extension.kanban.openBoard"
     },
     {
         "key": "ctrl+alt+m",

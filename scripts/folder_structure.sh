@@ -2,81 +2,37 @@
 
 source ./constant.sh
 
-
 ################ Carpeta principal
 
-if [[ ! -d $base$principal ]]
+if [[ ! -d $HOME/$BASEDIR ]]
 then
-    mkdir $base$principal
+    mkdir $HOME/$BASEDIR
 fi
 
 ################ Carpeta configuracion
 
-if [[ ! -d $base$principal$config ]]
+if [[ ! -d $HOME/$BASEDIR/$APPS ]]
 then
-    mkdir $base$principal$config
+    mkdir $HOME/$BASEDIR/$APPS
 fi
 
-# Carpeta SSH
+################ Registro de tareas
 
-if [[ ! -d $base$principal$config$ssh ]]
+if [[ ! -d $HOME/$BASEDIR/$TODO ]]
 then
-    mkdir $base$principal$config$ssh
+    mkdir $HOME/$BASEDIR/$TODO
 fi
 
-# Carpeta base_config
+################ Registro de tareas
 
-if [[ ! -d $base$principal$config$base_config ]]
+if [[ ! -d $HOME/$BASEDIR/$CONF ]]
 then
-    mkdir $base$principal$config$base_config 
+    mkdir $HOME/$BASEDIR/$CONF
 fi
 
-################ Carpeta proyectos
+################ Archivo de configuración
 
-if [[ ! -d $base$principal$proy ]]
+if [[ ! -d $HOME/$BASEDIR/$CONF/$SSH ]]
 then
-    mkdir $base$principal$proy
+    mkdir $HOME/$BASEDIR/$CONF/$SSH
 fi
-
-# Frameworks
-
-if [[ ! -d $base$principal$proy$frame ]]
-then
-    mkdir $base$principal$proy$frame
-fi
-
-# Librerias
-
-if [[ ! -d $base$principal$proy$library ]]
-then
-    mkdir $base$principal$proy$library
-fi
-
-# works
-
-if [[ ! -d $base$principal$proy$work ]]
-then
-    mkdir $base$principal$proy$library
-fi
-
-# config-properties
-
-if [[ ! -d $base$principal$proy$properties ]]
-then
-    mkdir $base$principal$proy$properties
-fi
-
-# DTO 
-
-if [[ ! -d $base$principal$proy$library$dot_library ]]
-then
-    mkdir $base$principal$proy$library$dot_library
-fi
-
-# Domain 
-
-if [[ ! -d $base$principal$proy$library$domain_library ]]
-then
-    mkdir $base$principal$proy$library$domain_library
-fi
-

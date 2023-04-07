@@ -1,22 +1,13 @@
 #!/bin/bash
 
-#### Constantes utilizadas para realizar configuracion automatica.
-#### Otro comentario de prueba
-
 # PATHS Directories
-base=~
-principal=/joalvarez-personal
-config=/configuration
-proy=/projects
-work=/work
-properties=/config-properties
-frame=/framework
-libraries=/libraries
-dot_library=/DTO
-domain_library=/domain
-ssh=/ssh
-base_config=/base_config
+BASEDIR=personal
+APPS=applications
+TODO=status
+CONF=config
+SSH=ssh
+PERSONAL1=joalvarezdev
 
-# SSH Files 
-personal_key=joalvarez
-work_key=work-joalvarez
+# Projects
+DOT=dotfiles
+

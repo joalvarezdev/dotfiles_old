@@ -2,14 +2,10 @@
 
 source ./constant.sh
 
-if [[ ! -f $base$principal$config$ssh/$personal_key ]]
-then
-    ssh-keygen -t ed25519 -C personal -P deppedev -f  $base$principal$config$ssh/$personal_key -q
-fi
+PASS="$(<./.passphrase)"
 
-if [[ ! -f $base$principal$config$ssh/$work_key ]]
+if [[ ! -f $HOME/$BASEDIR/$CONF/$SSH/$PERSONAL1 ]]
 then
-    ssh-keygen -t ed25519 -C work -P deppedev -f $base$principal$config$ssh/$work_key -q
-    pbcopy < $base$principal$config$ssh/$work_key.pub
+    ssh-keygen -t ed25519 -C 'GITHUB alvarez.joaquinez@gmail.com' -P $PASS -f  $HOME/$BASEDIR/$CONF/$SSH/$PERSONAL1 -q
 fi
 

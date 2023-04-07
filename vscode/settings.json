@@ -46,13 +46,7 @@
         "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.tabSize": 4,
         "editor.insertSpaces": true,
-        "editor.detectIndentation": false,
-        
-        /*
-        "editor.wrappingIndent": "deepIndent",
-        "editor.autoIndent": "full"*/
-
-        //"editor.insertSpaces": true
+        "editor.detectIndentation": false
     },
     "emmet.includeLanguages": {
         "javascript" : "javascriptreact"
@@ -71,5 +65,11 @@
     },
     "kanban": {
         "openOnStartup": false
-    }   
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    }
 }

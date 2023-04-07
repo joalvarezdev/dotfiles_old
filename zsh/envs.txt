@@ -1,9 +1,0 @@
-export PROD=prod
-export DEV=dev
-export TEST=test
-export USER_DB=depp3
-export PASS_DB=AgustinGuadalupe1926
-export JWT_SECRET_KEY=secret
-export JWT_EXPIRES_in=3600
-
-export HEADER_PATH=$HOME/.D3/personal/java/Proyects/horasExtras/Home/front/header.json
