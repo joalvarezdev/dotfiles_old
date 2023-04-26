@@ -11,9 +11,11 @@ source $configuration_path/.drive
 
 # SSH SHORCUTS
 source $configuration_path/.ssh_shorcuts
-alias op="xdg-open ."
 
+alias op="xdg-open ."
 alias rb='sudo reboot now'
+
+alias py=$HOME/personal/projects/python
 
 ### GIT ###
 alias gbh='git branch | head -20'

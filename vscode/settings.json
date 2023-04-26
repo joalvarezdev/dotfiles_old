@@ -1,75 +1,158 @@
 {
-    "workbench.colorTheme": "Dark Horizon",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.minimap.enabled": false,
-    "editor.wordWrap" : "on",
-    "editor.fontWeight": "bold",
-    "editor.fontFamily": "UbuntuMono Nerd Font Mono",
-    "editor.fontSize": 17,
-    "editor.fontLigatures": true,
-    "vim.leader": "<space>",
-    "vim.insertModeKeyBindings": [
-        {
-            "before" : ["j", "k"],
-            "after" : ["<Esc>"]
-        }
-    ],
-    "vim.normalModeKeyBindings": [
-        {
-            "before" : ["<leader>", "w"],
-            "commands" : ["workbench.action.files.save"]
-        },
-        {
-            "before" : ["<leader>", "q"],
-            "commands" : ["workbench.action.closeActiveEditor"]
-        },
-        {
-            "before" : ["<S-K>"],
-            "commands" : ["workbench.action.nextEditor"]
-        },
-        {
-            "before" : ["<S-J>"],
-            "commands" : ["workbench.action.previousEditor"]
-        },
-        {
-            "before" : ["<leader>", "["],
-            "commands" : ["workbench.action.closeAllGroups"]
-        }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive" : [
-        {
-            "before" : ["<leader>", "e"],
-            "commands" : ["workbench.action.toggleSidebarVisibility"]
-        }
-    ],
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features",
-        "editor.tabSize": 4,
-        "editor.insertSpaces": true,
-        "editor.detectIndentation": false
-    },
-    "emmet.includeLanguages": {
-        "javascript" : "javascriptreact"
-    },
-    "explorer.confirmDelete": false,
-    "window.zoomLevel": -1,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "kanban": {
-        "openOnStartup": false
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[python]": {
-        "editor.formatOnType": true
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.fontWeight": "bold",
+  "editor.fontFamily": "UbuntuMono Nerd Font Mono, Bold",
+  "editor.fontSize": 19,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.tokenColorCustomizations": {
+    "comments": "#fff"
+  },
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
     }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<S-K>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-J>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<leader>", "["],
+      "commands": ["workbench.action.closeAllGroups"]
+    },
+    {
+      "before": ["<leader>", "r", "r"],
+      "commands": ["python.execInTerminal-icon"]
+    },
+    {
+      "before": ["<leader>", "s", "u"],
+      "commands": ["workbench.action.openApplicationSettingsJson"]
+    },
+    {
+      "before": ["<leader>", "\\"],
+      "commands": ["workbench.action.splitEditorRight"]
+    },
+    {
+      "before": ["<leader>", "-"],
+      "commands": ["workbench.action.splitEditorDown"]
+    },
+    {
+      "before": ["<leader>", "m", "d"],
+      "commands": ["markdown-preview-enhanced.openPreviewToTheSide"]
+    },
+    {
+      "before": ["<leader>", "g", "p"],
+      "commands": ["git-graph.view"]
+    },
+    // EXECUTE
+    {
+      "before": ["<leader>", "s", "p"],
+      "commands": ["workbench.action.debug.stop"]
+    },
+    // PYTHON
+    {
+      "before": ["<leader>", "r", "r"],
+      "commands": ["python.execInTerminal-icon"]
+    },
+    // JAVA
+    {
+      "before": ["<leader>", "r", "j"],
+      "commands": ["java.debug.runJavaFile"]
+    },
+    {
+      "before": ["<leader>", "d", "d"],
+      "commands": ["java.debug.debugJavaFile"]
+    },
+    {
+      "before": ["<leader>", "g", "t"],
+      "commands": ["editor.action.sourceAction"]
+    },
+    {
+      "before": ["<leader>", "b", "p"],
+      "commands": ["editor.debug.action.toggleBreakpoint"]
+    },
+    {
+      "before": ["<leader>", "n", "c"],
+      "commands": ["workbench.action.editor.nextChange"]
+    },
+    {
+      "before": ["<leader>", "n", "e"],
+      "commands": ["editor.action.marker.nextInFiles"]
+    },
+    //
+    {
+      "before": ["<leader>", "g", "d"],
+      "commands": ["editor.action.revealDefinition"]
+    },
+    {
+      "before": ["<leader>", "g", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    }
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": -1,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[yml]": {
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.codeLens.scopes": ["document"]
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "[java]": {
+    "editor.formatOnSave": false
+  },
+  "workbench.colorTheme": "Horizon Bold",
+  "workbench.sideBar.location": "right",
+  "gitlens.defaultDateLocale": null,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": true
 }
